@@ -1,0 +1,56 @@
+V "GNAT Lib v2015"
+A -O0
+A --RTS=C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\
+A -gnatA
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+P DB ES
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+
+U stm32f4.sysconfig_control%s  stm32f4-sysconfig_control.ads  27c0bd06 NE OO PK IU
+W stm32f4%s		stm32f4.ads		stm32f4.ali
+
+D interfac.ads		20150519130110 6033a23f interfaces%s
+D stm32f4.ads		20150519130126 1a1b7e39 stm32f4%s
+D stm32f4-sysconfig_control.ads  20150519130126 3ddbc33f stm32f4.sysconfig_control%s
+D system.ads		20150519130110 9eacb62e system%s
+D s-unstyp.ads		20150519130110 9d58a4c0 system.unsigned_types%s
+D c:\gnat\projects\stm32f4\gnat.adc  20150519130126 00000000
+X 1 interfac.ads
+68M9*Unsigned_32
+X 2 stm32f4.ads
+35K9*STM32F4 72e12 3|33r9 73r5
+37M9*Word<1|68M9> 3|54r17 55r17 60r17
+41M9*Bits_1
+43M9*Bits_4
+45A9*Bits_32x1(41M9)<integer> 3|36r15 37r15 38r15 39r15 40r15 41r15
+47A9*Bits_8x4(43M9)<integer> 3|56r17 57r17 58r17 59r17
+X 3 stm32f4-sysconfig_control.ads
+33K17*SYSCONFIG_Control 2|35k9 3|73l13 73e30
+35R9*EXTI_Register 42e14 44r8
+36a7*IMR{2|45A9} 45r7
+37a7*EMR{2|45A9} 46r7
+38a7*RTSR{2|45A9} 47r7
+39a7*FTSR{2|45A9} 48r7
+40a7*SWIER{2|45A9} 49r7
+41a7*PR{2|45A9} 50r7
+53R9*SYSCFG_Register 61e14 63r8
+54m7*MEMRM{2|37M9} 64r7
+55m7*PMC{2|37M9} 65r7
+56a7*EXTICR1{2|47A9} 66r7
+57a7*EXTICR2{2|47A9} 67r7
+58a7*EXTICR3{2|47A9} 68r7
+59a7*EXTICR4{2|47A9} 69r7
+60m7*CMPCR{2|37M9} 70r7
+

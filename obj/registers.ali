@@ -1,0 +1,67 @@
+V "GNAT Lib v2015"
+A -O0
+A --RTS=C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\
+A -gnatA
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+P DB ES
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U registers%s		registers.ads		5e485c4c EE OO PK
+W stm32f4%s		stm32f4.ads		stm32f4.ali
+W stm32f4.gpio%s	stm32f4-gpio.ads	stm32f4-gpio.ali
+W stm32f4.reset_clock_control%s  stm32f4-reset_clock_control.ads  stm32f4-reset_clock_control.ali
+W stm32f4.sysconfig_control%s  stm32f4-sysconfig_control.ads  stm32f4-sysconfig_control.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D interfac.ads		20150519130110 6033a23f interfaces%s
+D registers.ads		20150519130126 d4576001 registers%s
+D stm32f4.ads		20150519130126 1a1b7e39 stm32f4%s
+D stm32f4-gpio.ads	20150519130126 00d6be0c stm32f4.gpio%s
+D stm32f4-reset_clock_control.ads  20150519130126 33a58969 stm32f4.reset_clock_control%s
+D stm32f4-sysconfig_control.ads  20150519130126 3ddbc33f stm32f4.sysconfig_control%s
+D system.ads		20150519130110 9eacb62e system%s
+D s-stoele.ads		20150519130110 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20150519130110 9d58a4c0 system.unsigned_types%s
+D c:\gnat\projects\stm32f4\gnat.adc  20150519130126 00000000
+X 2 registers.ads
+38K9*Registers 71l5 71e14
+43r4*RCC{5|35R9}
+48r4*GPIOA{4|65R9}
+53r4*GPIOD{4|65R9}
+58r4*EXTI{6|35R9}
+63r4*SYSCFG{6|53R9}
+X 3 stm32f4.ads
+35K9*STM32F4 2|33w6 33r39 34r6 34r39 35r6 35r39 36r6 36r39 3|72e12
+58N4*GPIOA_Base 2|50r36
+61N4*GPIOD_Base 2|55r36
+64N4*RCC_Base 2|45r36
+69N4*SYSCFG_Base 2|65r36
+70N4*EXTI_Base 2|60r36
+X 4 stm32f4-gpio.ads
+33K17*GPIO 2|34w14 34r47 4|91e17
+65R9*GPIO_Register 2|48r12 53r12 4|76e14
+X 5 stm32f4-reset_clock_control.ads
+33K17*Reset_Clock_Control 2|35w14 35r47 5|196e32
+35R9*RCC_Register 2|43r10 5|70e14
+X 6 stm32f4-sysconfig_control.ads
+33K17*SYSCONFIG_Control 2|36w14 36r47 6|73e30
+35R9*EXTI_Register 2|58r11 6|42e14
+53R9*SYSCFG_Register 2|63r13 6|61e14
+X 7 system.ads
+60K9*System 2|32w6 45r17 50r17 55r17 60r17 65r17 7|173e11
+90M9*Address 2|45r17 50r17 55r17 60r17 65r17
+

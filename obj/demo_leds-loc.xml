@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\driver.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 48" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\driver.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\stm32f4.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 50">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\stm32f4.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\stm32f4-sysconfig_control.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\stm32f4-reset_clock_control.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\stm32f4-gpio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\registers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\leds.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\leds.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\last_chance_handler.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\last_chance_handler.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\driver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\driver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\button.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\demo_leds.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2015\share\examples\gnat-cross\demo_leds-stm32f4\src\button.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

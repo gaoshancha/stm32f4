@@ -1,0 +1,108 @@
+V "GNAT Lib v2015"
+A -O0
+A --RTS=C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\
+A -gnatA
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+P DB ES
+
+RN
+RV NO_IMPLICIT_LOOPS
+RV NO_UNCHECKED_CONVERSION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U leds%b		leds.adb		d1ed92ea OO PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W registers%s		registers.ads		registers.ali
+W stm32f4%s		stm32f4.ads		stm32f4.ali
+W stm32f4.gpio%s	stm32f4-gpio.ads	stm32f4-gpio.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U leds%s		leds.ads		3be316d2 BN EB EE NE OO PK
+W stm32f4%s		stm32f4.ads		stm32f4.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20150519130110 3ffc8e18 ada%s
+D a-unccon.ads		20150519130110 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20150519130110 6033a23f interfaces%s
+D leds.ads		20150519130126 21f868eb leds%s
+D leds.adb		20150519130126 dd7fab0a leds%b
+D registers.ads		20150519130126 d4576001 registers%s
+D stm32f4.ads		20150519130126 1a1b7e39 stm32f4%s
+D stm32f4-gpio.ads	20150519130126 00d6be0c stm32f4.gpio%s
+D stm32f4-reset_clock_control.ads  20150519130126 33a58969 stm32f4.reset_clock_control%s
+D stm32f4-sysconfig_control.ads  20150519130126 3ddbc33f stm32f4.sysconfig_control%s
+D system.ads		20150519130110 9eacb62e system%s
+D s-stoele.ads		20150519130110 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20150519130110 9d58a4c0 system.unsigned_types%s
+D c:\gnat\projects\stm32f4\gnat.adc  20150519130126 00000000
+X 1 ada.ads
+16K9*Ada 19e8 5|28r6 36r28
+X 2 a-unccon.ads
+17+9 Source 5|37r7
+18+9 Target 5|37r27
+20v14*Unchecked_Conversion 5|28w10 36r32
+X 3 interfac.ads
+68M9*Unsigned_32
+115V13*Shift_Left{68M9} 5|48s21 59s36
+X 4 leds.ads
+33K9*LEDs 64l5 64e9 5|33b14 90l5 90t9
+36E9*User_LED 36e47 38r8 49r8 53r11 54r11 55r11 56r11 58r26 59r26 5|37r17
+. 40r25 46r26
+36n22*Green{36E9} 39r7 54r28 5|52r36
+36n29*Orange{36E9} 40r7 53r28 5|53r54
+36n37*Red{36E9} 41r7 55r28 5|52r54
+36n42*Blue{36E9} 42r7 56r28 5|53r36
+53e4*LED3=53:28{36E9}
+54e4*LED4=54:28{36E9}
+55e4*LED5=55:28{36E9}
+56e4*LED6=56:28{36E9}
+58U14*On 58>19 5|40b14 43l8 43t10
+58e19 This{36E9} 5|40b18 42r30
+59U14*Off 59>19 5|46b14 49l8 49t11
+59e19 This{36E9} 5|46b19 48r42
+61U14*All_Off 5|62b14 65l8 65t15
+62U14*All_On 5|68b14 71l8 71t14
+X 5 leds.adb
+36V13 As_Word[2|20]{7|37M9} 42s21 48s33
+52m4 All_LEDs_On{7|37M9} 56r7 59r48 70r21
+59m4 All_LEDs_Off{7|37M9} 64r21
+74U14 Initialize 74b14 85l8 85t18 89s4
+75m7 RCC_AHB1ENR_GPIOD{7|37M9} 78r37
+X 6 registers.ads
+38K9*Registers 5|30w6 30r25 6|71e14
+43r4*RCC{9|35R9} 5|78m7 78r22
+53r4*GPIOD{8|65R9} 5|42m7 48m7 64m7 70m7 81m7 81r7 82m7 82r7 83m7 83r7 84m7
+. 84r7
+X 7 stm32f4.ads
+35K9*STM32F4 4|31w6 31r20 5|31r6 31r25 7|72e12
+37M9*Word<3|68M9> 4|49r26 5|37r37 52r28 59r28 75r36
+41M9*Bits_1
+42M9*Bits_2
+45A9*Bits_32x1(41M9)<integer>
+46A9*Bits_16x2(42M9)<integer>
+X 8 stm32f4-gpio.ads
+33K17*GPIO 5|31w14 31r33 8|91e17
+37m4*Mode_OUT{7|42M9} 5|81r46
+42m4*Type_PP{7|41M9} 5|82r46
+49m4*Speed_100MHz{7|42M9} 5|83r46
+52m4*No_Pull{7|42M9} 5|84r46
+66a7*MODER{7|46A9} 5|81m13 81r13
+67a7*OTYPER{7|45A9} 5|82m13 82r13
+68a7*OSPEEDR{7|46A9} 5|83m13 83r13
+69a7*PUPDR{7|46A9} 5|84m13 84r13
+72m7*BSRR{7|37M9} 5|42m13 48m13 64m13 70m13
+X 9 stm32f4-reset_clock_control.ads
+48m7*AHB1ENR{7|37M9} 5|78m11 78r26
+

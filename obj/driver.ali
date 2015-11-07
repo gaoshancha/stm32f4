@@ -1,0 +1,120 @@
+V "GNAT Lib v2015"
+A -O0
+A --RTS=C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\
+A -gnatA
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+P DB LC TF  ES
+
+RN
+RV NO_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASKS=1
+
+U driver%b		driver.adb		b3ab8f83 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W button%s		button.adb		button.ali
+W leds%s		leds.adb		leds.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+
+U driver%s		driver.ads		3676f0ed EE OO PK
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+
+D ada.ads		20150519130110 3ffc8e18 ada%s
+D a-reatim.ads		20150519130110 67d7729a ada.real_time%s
+D a-retide.ads		20150519130110 081cdaa4 ada.real_time.delays%s
+D a-unccon.ads		20150519130110 f9eb8f06 ada.unchecked_conversion%s
+D button.ads		20150519130126 e913a290 button%s
+D driver.ads		20150519130126 a8da46c3 driver%s
+D driver.adb		20150519130126 b44d71a1 driver%b
+D interfac.ads		20150519130110 6033a23f interfaces%s
+D leds.ads		20150519130126 21f868eb leds%s
+D stm32f4.ads		20150519130126 1a1b7e39 stm32f4%s
+D system.ads		20150519130110 9eacb62e system%s
+D s-bb.ads		20150519130110 883768d6 system.bb%s
+D s-bbbosu.ads		20150519130110 3f67a4b3 system.bb.board_support%s
+D s-bbcppr.ads		20150519130110 37229a46 system.bb.cpu_primitives%s
+D s-bcprmu.ads		20150519130110 b5ec9aa9 system.bb.cpu_primitives.multiprocessors%s
+D s-bbinte.ads		20150519130110 4743e2d6 system.bb.interrupts%s
+D s-bbpara.ads		20150519130110 149bb9f9 system.bb.parameters%s
+D s-bbthre.ads		20150519130110 d71e350d system.bb.threads%s
+D s-bbthqu.ads		20150519130110 6e3d132d system.bb.threads.queues%s
+D s-bbtime.ads		20150519130110 2fd6b2f5 system.bb.time%s
+D s-multip.ads		20150519130110 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20150519130110 9761d940 system.os_interface%s
+D s-parame.ads		20150519130110 c9fe535f system.parameters%s
+D s-stm32f.ads		20150519130110 bd7e4ddb system.stm32f4%s
+D s-stmrcc.ads		20150519130110 33e30490 system.stm32f4.rcc%s
+D s-stoele.ads		20150519130110 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20150519130110 801abd01 system.task_info%s
+D s-taspri.ads		20150519130110 351848fa system.task_primitives%s
+D s-taskin.ads		20150519130110 41d03b44 system.tasking%s
+D s-tasres.ads		20150519130110 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20150519130110 128b2dbd system.tasking.restricted.stages%s
+D s-unstyp.ads		20150519130110 9d58a4c0 system.unsigned_types%s
+D c:\gnat\projects\stm32f4\gnat.adc  20150519130126 00000000
+X 1 ada.ads
+16K9*Ada 19e8 7|30r6 30r25
+X 2 a-reatim.ads
+41K13*Real_Time 146e18 7|30w10 30r29
+43M9*Time<20|46M9> 7|44r20
+55I9*Time_Span<20|81I9> 7|43r29
+62V13*Clock{43M9}<20|138p13> 7|44s28
+64V14*"+"{43M9} 7|58s35
+96V13*Milliseconds{55I9} 7|43s42
+X 5 button.ads
+31K9*Button 38e11 7|29w6 29r25 50r13
+34n35*Counterclockwise{34E9} 7|50r40
+36V13*Current_Direction{34E9} 7|50s20
+X 6 driver.ads
+33K9*Driver 40l5 40e11 7|32b14 63l5 63t11
+35t9*Controller 7|42b14 61l8 61t18
+X 7 driver.adb
+34M9 Index 36r30 45r20
+36a4 Pattern(9|36E9) 48r15 56r14
+43i7 Period{2|55I9} 58r37
+44m7 Next_Start{2|43M9} 58m10 58r24 59r22
+45m7 Next_LED{34M9} 48r24 51m13 51r25 53m13 53r25 56r23
+X 9 leds.ads
+33K9*LEDs 7|28w6 28r25 9|64e9
+36E9*User_LED 7|36r40 9|36e47
+36n22*Green{36E9} 7|36r72
+36n29*Orange{36E9} 7|36r53
+36n37*Red{36E9} 7|36r61
+36n42*Blue{36E9} 7|36r66
+58U14*On 7|56s10
+59U14*Off 7|48s10
+X 11 system.ads
+60K9*System 6|31w6 37r24 11|173e11
+90M9*Address
+126I12*Any_Priority{integer}
+127I12*Priority{126I12}
+130i4*Default_Priority{127I12} 6|37r31
+X 20 s-bbtime.ads
+46M9*Time
+81I9*Time_Span<long_long_integer>
+X 29 s-taskin.ads
+347V13*Get_Sec_Stack{11|90M9} 348i<c,__gnat_get_secondary_stack>22
+402U14*Initialize_Slave 403i24
+X 31 s-tarest.ads
+221U14*Activate_All_Tasks_Sequential 222i<c,__gnat_activate_all_tasks>22
+

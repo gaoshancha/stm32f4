@@ -1,0 +1,53 @@
+V "GNAT Lib v2015"
+A -O0
+A --RTS=C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\
+A -gnatA
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+P DB ES
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U last_chance_handler%b	last_chance_handler.adb	6c395f11 NE OO PK
+W leds%s		leds.adb		leds.ali
+
+U last_chance_handler%s	last_chance_handler.ads	76532fd6 EE NE OO PK
+W system%s		system.ads		system.ali
+
+D interfac.ads		20150519130110 6033a23f interfaces%s
+D last_chance_handler.ads  20150519130126 e8ff99f8 last_chance_handler%s
+D last_chance_handler.adb  20150519130126 a53eae02 last_chance_handler%b
+D leds.ads		20150519130126 21f868eb leds%s
+D stm32f4.ads		20150519130126 1a1b7e39 stm32f4%s
+D system.ads		20150519130110 9eacb62e system%s
+D s-unstyp.ads		20150519130110 9d58a4c0 system.unsigned_types%s
+D c:\gnat\projects\stm32f4\gnat.adc  20150519130126 00000000
+X 2 last_chance_handler.ads
+37K9*Last_Chance_Handler 44l5 44e24 3|30b14 49l5 49t24
+39U14*Last_Chance_Handler 39>35 39>57 40i<c,__gnat_last_chance_handler>22
+. 41r22 42r26 3|36b14 47l8 47t27
+39m35 Msg{6|90M9} 3|36b35 37r28
+39i57 Line{integer} 3|36b57 37r33
+X 3 last_chance_handler.adb
+45l9 spin
+X 4 leds.ads
+33K9*LEDs 3|28w6 28r17 4|64e9
+36n22*Green{36E9} 3|39r12
+36n29*Orange{36E9} 3|40r12
+36n37*Red{36E9} 3|42r11
+36n42*Blue{36E9} 3|41r12
+58U14*On 3|42s7
+59U14*Off 3|39s7 40s7 41s7
+X 6 system.ads
+60K9*System 2|35w6 39r41 3|36r41 6|173e11
+90M9*Address 2|39r48 3|36r48
+

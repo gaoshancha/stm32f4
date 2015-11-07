@@ -1,0 +1,72 @@
+V "GNAT Lib v2015"
+A -O0
+A --RTS=C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\
+A -gnatA
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+P DB ES
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+
+U stm32f4.gpio%s	stm32f4-gpio.ads	1acdc035 NE OO PK IU
+W stm32f4%s		stm32f4.ads		stm32f4.ali
+
+D interfac.ads		20150519130110 6033a23f interfaces%s
+D stm32f4.ads		20150519130126 1a1b7e39 stm32f4%s
+D stm32f4-gpio.ads	20150519130126 00d6be0c stm32f4.gpio%s
+D system.ads		20150519130110 9eacb62e system%s
+D s-unstyp.ads		20150519130110 9d58a4c0 system.unsigned_types%s
+D c:\gnat\projects\stm32f4\gnat.adc  20150519130126 00000000
+X 1 interfac.ads
+68M9*Unsigned_32
+X 2 stm32f4.ads
+35K9*STM32F4 72e12 3|33r9 91r5
+37M9*Word<1|68M9> 3|60r33 61r33 62r33 70r17 71r17 72r17 73r17
+41M9*Bits_1 3|42r28 43r28
+42M9*Bits_2 3|36r28 37r28 38r28 39r28 46r28 47r28 48r28 49r28 52r28 53r28
+. 54r28
+43M9*Bits_4 3|57r28
+45A9*Bits_32x1(41M9)<integer> 3|67r17
+46A9*Bits_16x2(42M9)<integer> 3|66r17 68r17 69r17
+47A9*Bits_8x4(43M9)<integer> 3|74r17 75r17
+X 3 stm32f4-gpio.ads
+33K17*GPIO 2|35k9 3|91l13 91e17
+36m4*Mode_IN{2|42M9}
+37m4*Mode_OUT{2|42M9}
+38m4*Mode_AF{2|42M9}
+39m4*Mode_AN{2|42M9}
+42m4*Type_PP{2|41M9}
+43m4*Type_OD{2|41M9}
+46m4*Speed_2MHz{2|42M9}
+47m4*Speed_25MHz{2|42M9}
+48m4*Speed_50MHz{2|42M9}
+49m4*Speed_100MHz{2|42M9}
+52m4*No_Pull{2|42M9}
+53m4*Pull_Up{2|42M9}
+54m4*Pull_Down{2|42M9}
+57m4*AF_USART1{2|43M9}
+60m4*GPIOA_Reset{2|37M9}
+61m4*GPIOB_Reset{2|37M9}
+62m4*GPIO_Others_Reset{2|37M9}
+65R9*GPIO_Register 76e14 78r8
+66a7*MODER{2|46A9} 79r7
+67a7*OTYPER{2|45A9} 80r7
+68a7*OSPEEDR{2|46A9} 81r7
+69a7*PUPDR{2|46A9} 82r7
+70m7*IDR{2|37M9} 83r7
+71m7*ODR{2|37M9} 84r7
+72m7*BSRR{2|37M9} 85r7
+73m7*LCKR{2|37M9} 86r7
+74a7*AFRL{2|47A9} 87r7
+75a7*AFRH{2|47A9} 88r7
+

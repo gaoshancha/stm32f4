@@ -1,0 +1,28 @@
+[GENERATED OBJECT FILE]
+b__demo.o
+[PROJECT FILES]
+C:\GNAT\projects\stm32f4\demo_leds.gpr
+20150519130126
+[BOUND OBJECT FILES]
+C:\GNAT\projects\stm32f4\obj\demo.o
+C:\GNAT\projects\stm32f4\obj\stm32f4.o
+C:\GNAT\projects\stm32f4\obj\stm32f4-gpio.o
+C:\GNAT\projects\stm32f4\obj\stm32f4-reset_clock_control.o
+C:\GNAT\projects\stm32f4\obj\stm32f4-sysconfig_control.o
+C:\GNAT\projects\stm32f4\obj\registers.o
+C:\GNAT\projects\stm32f4\obj\button.o
+C:\GNAT\projects\stm32f4\obj\leds.o
+C:\GNAT\projects\stm32f4\obj\last_chance_handler.o
+C:\GNAT\projects\stm32f4\obj\driver.o
+[GENERATED SOURCE FILES]
+b__demo.ads
+b__demo.adb
+b__demo.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\projects\stm32f4\obj\
+-LC:\GNAT\projects\stm32f4\obj\
+-LC:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\adalib\
+-static
+-static-libgcc
+C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\adalib\libgnarl.a
+C:\gnat\2015\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\adalib\libgnat.a
